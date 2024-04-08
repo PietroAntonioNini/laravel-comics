@@ -1,4 +1,7 @@
 <footer>
+
+    <img class="image-container" src="{{ Vite::asset('resources/img/footer-bg.jpg') }}" alt="Background Image">
+
     <div class="footer-links">
         <div id="row">
             <div id="column-left">
@@ -64,11 +67,21 @@
                 <a class="follow-us" href="#">Follow US</a>
                 
                 <ul>
-                    @foreach ($socials as $social)
                     <li>
-                        <img class="social-img" src="{{ $social['img'] }}" alt="Loghi Social">
+                        <img class="social-img" src="{{ Vite::asset('resources/img/footer-facebook.png') }}" alt="Loghi Social">
                     </li>
-                    @endforeach
+                    <li>
+                        <img class="social-img" src="{{ Vite::asset('resources/img/footer-twitter.png') }}" alt="Loghi Social">
+                    </li>
+                    <li>
+                        <img class="social-img" src="{{ Vite::asset('resources/img/footer-youtube.png') }}" alt="Loghi Social">
+                    </li>
+                    <li>
+                        <img class="social-img" src="{{ Vite::asset('resources/img/footer-pinterest.png') }}" alt="Loghi Social">
+                    </li>
+                    <li>
+                        <img class="social-img" src="{{ Vite::asset('resources/img/footer-periscope.png') }}" alt="Loghi Social">
+                    </li>
                 </ul>
             </div>
         </div>

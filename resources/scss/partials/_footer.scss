@@ -5,10 +5,17 @@ footer {
     align-items: center;
     position: relative;
 
-    background-image: url(/img/footer-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
+
+    .image-container {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        z-index: -1;
+    }
 
     .footer-links {
         @include container;
