@@ -85,3 +85,40 @@
         }
     }
 }
+
+#banner-top {
+    position: absolute;
+    bottom: -80px;
+    left: 0;
+    right: 0;
+    background-color: $primaryColor;
+
+    .banner-container-top {
+        @include container;
+
+        ul {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            height: 160px;
+
+            list-style-type: none;
+
+            li {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+
+                text-transform: uppercase;
+                font-weight: 500;
+
+                color: white;
+
+                img {
+                    height: 50px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,121 @@
+footer {
+    height: 640px;
+
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    background-image: url(/img/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+
+    .footer-links {
+        @include container;
+
+        display: flex;
+        align-items: center;
+        gap: 400px;
+
+        #row {
+
+            display: flex;
+            align-items: flex-start;
+            gap: 55px;
+
+            margin-top: 20px;
+
+            #column-left {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+
+            h3 {
+                margin-bottom: 10px;
+
+                font-size: 18px;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+
+            ul {
+                display: flex;
+                flex-direction: column;
+                gap: 3px;
+                list-style-type: none;
+
+                li {
+                    cursor: pointer;
+
+                    font-size: 10px;
+                    color: #959595;
+
+                    &:hover {
+                        color: white;
+                    }
+                }
+            }
+        }
+
+        img {
+            width: 550px;
+            margin-top: 60px;
+        }
+    }
+
+    #banner-bottom {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: $tertiaryColor;
+    
+        .banner-container-bottom {
+            @include container;
+    
+            height: 110px;
+    
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+    
+            #sign-up {
+                padding: 12px 14px;
+    
+                font-size: 16px;
+                font-weight: bold;
+                text-transform: uppercase;
+    
+                border: 1px solid $primaryColor;
+                background-color: transparent;
+
+                color: white;
+            }
+    
+            #socials {
+                display: flex;
+                gap: 40px;
+    
+                .follow-us {
+                    display: flex;
+                    align-items: center;
+                    
+                    font-size: 18px;
+                    font-weight: bold;
+                    text-decoration: none;
+                    text-transform: uppercase;
+    
+                    color: $primaryColor;
+                }
+    
+                ul {
+                    display: flex;
+                    gap: 20px;
+                    list-style-type: none;
+                }
+            }        
+        }
+    }
+}
+

@@ -19,5 +19,34 @@
         @endforeach
     
         <button id="more">Load More</button>
+
+        
+    </div>
+</div>
+
+<div id="banner-top">
+    <div class="banner-container-top">
+        <ul>
+            <li>
+                <img src="{{ Vite::asset('resources/img/buy-comics-digital-comics.png') }}" alt="immagini articoli">
+                <span>Digital Comics</span>
+            </li>
+            <li>
+                <img src="{{ Vite::asset('resources/img/buy-comics-merchandise.png') }}" alt="immagini articoli">
+                <span>DC Merchandise</span>
+            </li>
+            <li>
+                <img src="{{ Vite::asset('resources/img/buy-comics-subscriptions.png') }}" alt="immagini articoli">
+                <span>Subscription</span>
+            </li>
+            <li>
+                <img src="{{ Vite::asset('resources/img/buy-comics-shop-locator.png') }}" alt="immagini articoli">
+                <span>Comic shop locator</span>
+            </li>
+            <li>
+                <img src="{{ Vite::asset('resources/img/buy-dc-power-visa.svg') }}" alt="immagini articoli">
+                <span>DC power visa</span>
+            </li> 
+        </ul>
     </div>
 </div>

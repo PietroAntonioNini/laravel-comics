@@ -1,7 +1,10 @@
 <?php
 
 return [
-    'comics' => [
+
+    "tabs"=> ["Characters", "Comics", "Movies", "Tv", "Games", "Collectibles", "Videos", "Fans", "News", "Shop"],
+
+    "comics" => [
         [
             "title" => "Action Comics #1000: The Deluxe Edition",
             "description" => "The celebration of 1,000 issues of Action Comics continues with a new, Deluxe Edition of the amazing comic that won raves when it hit comics shops in April! This hardcover includes all the stories from that issue, plus the tale by writer Paul Levitz and artist Neal Adams that appeared in the Action Comics: 80 Years Of Superman hardcover, as well as all the variant covers, design sketches by Jim Lee for Superman’s new look, scripts for the stories, the original art from the lost story featuring art by Curt Swan and more! Plus: a complete reprint of the stories that started it all—the Superman stories Action Comics #1 and 2 from 1938!",
@@ -110,6 +113,44 @@ return [
             "sale_date" => "2019-04-10",
             "type" => "graphic novel",
         ]
+    ],
+
+    "links" => [
+        [
+            "title" => "Dc comics",
+            "links" => ["Character", "Comics", "Movies", "TV", "Games", "Videos", "News"]
+        ],
+        [
+            "title" => "Shop",
+            "links" => ["Shop DC", "Shop DC Collectibles"]
+        ],
+        [
+            "title" => "DC",
+            "links" => ["Terms Of Use", "Privacy policy (New)", "Ad Choices", "Advertising", "Jobs", "Subscriptions", "Talent Workshop", "CPSC Certificates", "Ratings", "Shop Help", "Contact US"]
+        ],
+        [
+            "title" => "Sities",
+            "links" => ["DC", "MAD magazine", "DC Kids", "DC Universe", "DC Power Visa"]
+        ],
+        
+    ],
+
+    "socials" => [
+        [
+            "img" => "/img/footer-facebook.png",
+        ],
+        [
+            "img" => "/img/footer-twitter.png",
+        ],
+        [
+            "img" => "/img/footer-youtube.png",
+        ],
+        [
+            "img" => "/img/footer-pinterest.png",
+        ],
+        [
+            "img" => "/img/footer-periscope.png",
+        ],
     ]
 ];
 
