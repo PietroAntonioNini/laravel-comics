@@ -1,0 +1,41 @@
+nav {
+    background-color: white;
+
+    div {
+        @include container;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        height: 115px;
+
+        #logo {
+            height: 80px;
+        }
+        
+        ul {
+            display: flex;
+            gap: 40px;
+            list-style-type: none;
+
+            .tabs {
+                display: flex;
+                align-items: center;
+                height: 115px;
+
+                font-weight: bold;
+                text-transform: uppercase;
+                color: $secondaryColor;
+                border-bottom: 5px solid transparent;
+                cursor: pointer;
+
+                &:hover {
+                    color: $primaryColor;
+                    border-bottom: 5px solid $primaryColor;
+                }
+            }
+        }
+    }
+    
+}
