@@ -1,15 +1,30 @@
 nav {
-    background-color: white;
+    .banner {
+        color: white;
+        background-color: $primaryColor;
 
-    div {
+        div {
+            @include container;
+            display: flex;
+            justify-content: end;
+            gap: 40px;
+
+            font-size: 12px;
+            font-weight: bold;
+        }
+    }
+
+    .items {
         @include container;
-
+        
         display: flex;
         justify-content: space-between;
         align-items: center;
-
+        
         height: 115px;
 
+        background-color: white;
+        
         #logo {
             height: 80px;
         }
